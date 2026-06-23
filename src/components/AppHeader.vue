@@ -12,7 +12,7 @@
 
       <form class="search-box" @submit.prevent="search">
         <input v-model="keyword" type="text" placeholder="Tìm giày, hãng, loại..." />
-        <button type="submit" aria-label="Tìm kiếm">🔍</button>
+        <button type="submit" aria-label="Tìm kiếm" class="btn btn-secondary">Tìm</button>
       </form>
 
       <div class="header-actions">
