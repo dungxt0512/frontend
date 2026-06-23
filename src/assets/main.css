@@ -1,0 +1,279 @@
+/* ===================================================================
+   MAXVERSE — DESIGN TOKENS
+   Định hướng: sneaker store hiện đại, năng động, dành cho người trẻ.
+   Nền tối kiểu "đêm sân vận động", accent cam năng lượng + xanh điện thông tin.
+   =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Màu nền */
+  --bg-base: #0B0E14;
+  --bg-elevated: #161B26;
+  --bg-elevated-2: #1E2533;
+
+  /* Màu chữ */
+  --text-primary: #F5F3EE;
+  --text-secondary: #A8AEBD;
+  --text-muted: #6B7280;
+
+  /* Accent */
+  --accent-orange: #FF6B35;
+  --accent-orange-hover: #FF8259;
+  --accent-blue: #3D5AFE;
+  --accent-blue-hover: #5B74FF;
+
+  /* Trạng thái */
+  --success: #2ECC71;
+  --danger: #E74C3C;
+  --warning: #F4B740;
+
+  /* Viền */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Typography */
+  --font-display: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  /* Bo góc & bóng */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 12px 32px rgba(255, 107, 53, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+/* Focus visible cho accessibility - không bỏ outline hoàn toàn */
+:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
+/* Tôn trọng reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== Typography utilities ===== */
+.heading-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent-orange);
+}
+
+/* ===== Button system ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 15px;
+  transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background: var(--accent-orange);
+  color: #1A1006;
+}
+.btn-primary:hover {
+  background: var(--accent-orange-hover);
+  box-shadow: var(--shadow-hover);
+}
+.btn-primary:disabled {
+  background: var(--text-muted);
+  color: var(--bg-base);
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1.5px solid var(--border-strong);
+}
+.btn-secondary:hover {
+  border-color: var(--accent-orange);
+  color: var(--accent-orange);
+}
+
+.btn-danger {
+  background: transparent;
+  color: var(--danger);
+  border: 1.5px solid var(--danger);
+}
+.btn-danger:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* ===== Card ===== */
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+/* ===== Form ===== */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-secondary);
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--bg-elevated-2);
+  border: 1.5px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 15px;
+  transition: border-color 0.15s ease;
+}
+
+.form-input:focus {
+  border-color: var(--accent-orange);
+  outline: none;
+}
+
+.form-error {
+  color: var(--danger);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* ===== Size tag (signature element - dạng nhãn giày) ===== */
+.size-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border-strong);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-elevated-2);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.size-tag:hover {
+  border-color: var(--accent-orange);
+  color: var(--text-primary);
+}
+
+.size-tag.active {
+  background: var(--accent-orange);
+  border-color: var(--accent-orange);
+  color: #1A1006;
+}
+
+.size-tag.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
+/* ===== Badge ===== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.badge-success { background: rgba(46, 204, 113, 0.15); color: var(--success); }
+.badge-warning { background: rgba(244, 183, 64, 0.15); color: var(--warning); }
+.badge-danger { background: rgba(231, 76, 60, 0.15); color: var(--danger); }
+.badge-info { background: rgba(61, 90, 254, 0.15); color: var(--accent-blue); }
+
+/* ===== Responsive grid cho danh sách sản phẩm ===== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1100px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 800px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .product-grid { grid-template-columns: 1fr; }
+}
