@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="https://placehold.co/560x560/161B26/FF6B35?text=MaxVerse" alt="Giày thể thao MaxVerse" />
+          <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/449/472/products/49ece0fd-03df-49ea-b066-6f9b16f282d5.jpg?v=1652010429983" alt="Giày thể thao MaxVerse" />
         </div>
       </div>
     </section>
