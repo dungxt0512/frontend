@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\helpers\\vnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:helpers\\vnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\dtos\\cartorderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:dtos\\cartorderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\data\\maxversedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:data\\maxversedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|c:\\users\\admin\\downloads\\maxverse1\\maxverse\\backend\\maxverse.api\\migrations\\20260629170438_maxversedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CACEEC6-698D-3998-83AE-526627BCD03F}|MaxVerse.API.csproj|solutionrelative:migrations\\20260629170438_maxversedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "Models\\Entities.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Models\\Entities.cs",
+              "RelativeToolTip": "Models\\Entities.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAA0wH8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:34.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:29.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VnPayHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Helpers\\VnPayHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\VnPayHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Helpers\\VnPayHelper.cs",
+              "RelativeToolTip": "Helpers\\VnPayHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:27.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartOrderDtos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\CartOrderDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\CartOrderDtos.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\CartOrderDtos.cs",
+              "RelativeToolTip": "DTOs\\CartOrderDtos.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:20.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "Data\\DbSeeder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:01:36.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260629170438_MaxVerseDB.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Migrations\\20260629170438_MaxVerseDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260629170438_MaxVerseDB.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Migrations\\20260629170438_MaxVerseDB.cs",
+              "RelativeToolTip": "Migrations\\20260629170438_MaxVerseDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:04:39.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:18.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDtos.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:03:10.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MaxVerseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Data\\MaxVerseDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MaxVerseDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\Data\\MaxVerseDbContext.cs",
+              "RelativeToolTip": "Data\\MaxVerseDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:01:37.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\MaxVerse1\\MaxVerse\\backend\\MaxVerse.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-29T16:59:43.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
