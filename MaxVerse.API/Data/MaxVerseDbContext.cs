@@ -96,13 +96,6 @@ public class MaxVerseDbContext : DbContext
     new Role
     {
         Id = 2,
-        Name = "Staff",
-        Description = "Store Staff",
-        CreatedAt = new DateTime(2026, 1, 1)
-    },
-    new Role
-    {
-        Id = 3,
         Name = "Customer",
         Description = "Customer",
         CreatedAt = new DateTime(2026, 1, 1)

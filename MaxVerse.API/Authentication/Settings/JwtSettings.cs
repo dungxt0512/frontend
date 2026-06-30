@@ -1,4 +1,4 @@
-﻿namespace MaxVerse.API.Authentication.Jwt;
+﻿namespace MaxVerse.API.Authentication.Settings;
 
 public class JwtSettings
 {
@@ -8,7 +8,7 @@ public class JwtSettings
 
     public string Audience { get; set; } = string.Empty;
 
-    public int ExpireMinutes { get; set; }
+    public int AccessTokenExpirationMinutes { get; set; }
 
-    public int RefreshTokenDays { get; set; }
+    public int RefreshTokenExpirationDays { get; set; }
 }
